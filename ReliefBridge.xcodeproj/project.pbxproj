@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBB0001000000000000F002 /* ImpactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0001000000000000F001 /* ImpactView.swift */; };
+		BBBB0002000000000000F002 /* SurplusRadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0002000000000000F001 /* SurplusRadarView.swift */; };
+		BBBB0003000000000000F002 /* RespondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0003000000000000F001 /* RespondView.swift */; };
+		AAAA0001000000000000F002 /* ReliefModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0001000000000000F001 /* ReliefModels.swift */; };
+		AAAA0002000000000000F002 /* ReliefService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0002000000000000F001 /* ReliefService.swift */; };
+		AAAA0003000000000000F002 /* ReliefGlobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAA0003000000000000F001 /* ReliefGlobeView.swift */; };
+		154C8C3C8D78BE58667B24D7 /* FleetFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D61D5FFBA3977D4D04ABD /* FleetFilterView.swift */; };
+		1C0B276B9FEED0A6F81B03E4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D27609C1C4217ACB77937D /* Theme.swift */; };
+		1D998E18448C35FCF43A20C1 /* AircraftSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D9C80ACD8E02573016958 /* AircraftSceneView.swift */; };
+		21486D64AEC2106FF666FC7F /* InfoStatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877321BBE4BFF93B1944F7C9 /* InfoStatCard.swift */; };
+		2449141A5557BF6358877D98 /* KPICardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E02AD33427DBA1B45D7F09D /* KPICardView.swift */; };
+		298B68C7A10EB035F38C51D4 /* GlowText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736D5A8ADBEEC67698A0074 /* GlowText.swift */; };
+		29BC574A3DA30F5254188154 /* CarbonEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC05A3F6BBF0C4AD1510559 /* CarbonEngineView.swift */; };
+		2D36776DCC86ECEFC95A012E /* FleetCommandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40803DA5097045493E41BC0B /* FleetCommandViewModel.swift */; };
+		3019CCAA71FB86D795AC1A62 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11963ADAEB43BBA9F59DB7AE /* Models.swift */; };
+		3F862D9232D313E2E65D0CFB /* MaintenanceAlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05747A783A1D644DFEBE03E /* MaintenanceAlertRow.swift */; };
+		45359C9AAD043445B8DAD419 /* SimulatedDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5262C613DE2955BB05986E3 /* SimulatedDataService.swift */; };
+		4C25824F5CFF866A59805772 /* FleetCommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3A62274C3A4F510FB8DE22 /* FleetCommandView.swift */; };
+		6F795BEBE0696470ABEAFEF3 /* AuditReportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB560745D5511329E64B4DB3 /* AuditReportSheet.swift */; };
+		8B76D014926472097C3A888C /* MaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4794E271BAFE46B9893533 /* MaintenanceView.swift */; };
+		8C9D67A36B6C2735904ED221 /* MaintenanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1101155D2A79D5ADB73C5D /* MaintenanceViewModel.swift */; };
+		901BBA20B319057B90BA27B1 /* TelemetryGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E886F003441F1B1AA25C9 /* TelemetryGaugeView.swift */; };
+		99B130B08B0A0BB0B6CF552E /* DigitalTwinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E15F69C9F2F4C10EBBCC4 /* DigitalTwinViewModel.swift */; };
+		9CA343565913F1C01DACA8DB /* AircraftMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60CB4FC2574273C15D2138 /* AircraftMapAnnotation.swift */; };
+		A1BCB28BACB3747D28B97465 /* DigitalTwinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5E4683202A80C49F07DE8D /* DigitalTwinView.swift */; };
+		A89ADD611DEFFC199232BE80 /* CarbonEngineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3221F1590ED46DAB67A9E20D /* CarbonEngineViewModel.swift */; };
+		AD1989C950F4A1B80CCDB5BD /* SubsystemStatusRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2879ED563D222787DA3E995 /* SubsystemStatusRow.swift */; };
+		B1E475ACCB65E19FDB8D72D6 /* ReliefBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4990068616001BEC79C03 /* ReliefBridgeApp.swift */; };
+		BF11E6AF1378C8E97E831D30 /* Thresholds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809E99E94BE0AD0893E4B3BF /* Thresholds.swift */; };
+		C1544A1C00F57142D5436786 /* LatticeHeatMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E27D14D68853240FD23EF /* LatticeHeatMapView.swift */; };
+		E440BCD72122B36CD9539334 /* QuotaProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D62EC5A452911C42F3D196 /* QuotaProgressRingView.swift */; };
+		E6154064F0F8F3D83C402542 /* DigitalTwinTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AA4F4769DCA6895A8F9502 /* DigitalTwinTabView.swift */; };
+		EB67D9509E0F28A94901690D /* LedgerBlockRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0F68C46A74B802D577AAF8 /* LedgerBlockRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBBB0001000000000000F001 /* ImpactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactView.swift; sourceTree = "<group>"; };
+		BBBB0002000000000000F001 /* SurplusRadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurplusRadarView.swift; sourceTree = "<group>"; };
+		BBBB0003000000000000F001 /* RespondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondView.swift; sourceTree = "<group>"; };
+		AAAA0001000000000000F001 /* ReliefModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliefModels.swift; sourceTree = "<group>"; };
+		AAAA0002000000000000F001 /* ReliefService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliefService.swift; sourceTree = "<group>"; };
+		AAAA0003000000000000F001 /* ReliefGlobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliefGlobeView.swift; sourceTree = "<group>"; };
+		11963ADAEB43BBA9F59DB7AE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		1EC05A3F6BBF0C4AD1510559 /* CarbonEngineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonEngineView.swift; sourceTree = "<group>"; };
+		2A3A62274C3A4F510FB8DE22 /* FleetCommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetCommandView.swift; sourceTree = "<group>"; };
+		3221F1590ED46DAB67A9E20D /* CarbonEngineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonEngineViewModel.swift; sourceTree = "<group>"; };
+		3E010C076301DB7CDC1CD59C /* ReliefBridgeApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ReliefBridgeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE4990068616001BEC79C03 /* ReliefBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliefBridgeApp.swift; sourceTree = "<group>"; };
+		40803DA5097045493E41BC0B /* FleetCommandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetCommandViewModel.swift; sourceTree = "<group>"; };
+		43D27609C1C4217ACB77937D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4E4794E271BAFE46B9893533 /* MaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceView.swift; sourceTree = "<group>"; };
+		4F5E15F69C9F2F4C10EBBCC4 /* DigitalTwinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalTwinViewModel.swift; sourceTree = "<group>"; };
+		57AA4F4769DCA6895A8F9502 /* DigitalTwinTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalTwinTabView.swift; sourceTree = "<group>"; };
+		62D62EC5A452911C42F3D196 /* QuotaProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaProgressRingView.swift; sourceTree = "<group>"; };
+		7E02AD33427DBA1B45D7F09D /* KPICardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPICardView.swift; sourceTree = "<group>"; };
+		809E99E94BE0AD0893E4B3BF /* Thresholds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thresholds.swift; sourceTree = "<group>"; };
+		877321BBE4BFF93B1944F7C9 /* InfoStatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoStatCard.swift; sourceTree = "<group>"; };
+		8B7E886F003441F1B1AA25C9 /* TelemetryGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryGaugeView.swift; sourceTree = "<group>"; };
+		9C0F68C46A74B802D577AAF8 /* LedgerBlockRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerBlockRow.swift; sourceTree = "<group>"; };
+		A87E27D14D68853240FD23EF /* LatticeHeatMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatticeHeatMapView.swift; sourceTree = "<group>"; };
+		B51D9C80ACD8E02573016958 /* AircraftSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftSceneView.swift; sourceTree = "<group>"; };
+		C2879ED563D222787DA3E995 /* SubsystemStatusRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsystemStatusRow.swift; sourceTree = "<group>"; };
+		CE60CB4FC2574273C15D2138 /* AircraftMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftMapAnnotation.swift; sourceTree = "<group>"; };
+		D736D5A8ADBEEC67698A0074 /* GlowText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowText.swift; sourceTree = "<group>"; };
+		E05747A783A1D644DFEBE03E /* MaintenanceAlertRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceAlertRow.swift; sourceTree = "<group>"; };
+		E5262C613DE2955BB05986E3 /* SimulatedDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatedDataService.swift; sourceTree = "<group>"; };
+		E62D61D5FFBA3977D4D04ABD /* FleetFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetFilterView.swift; sourceTree = "<group>"; };
+		EB560745D5511329E64B4DB3 /* AuditReportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditReportSheet.swift; sourceTree = "<group>"; };
+		EB5E4683202A80C49F07DE8D /* DigitalTwinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalTwinView.swift; sourceTree = "<group>"; };
+		EF1101155D2A79D5ADB73C5D /* MaintenanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08916654DF5A792D335FDAF4 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				43D27609C1C4217ACB77937D /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		1019F33194A62C19AB26C34A = {
+			isa = PBXGroup;
+			children = (
+				519ED6BC9E0CC710CE3F7DAB /* ReliefBridge */,
+				CE2540D873E52FDF1FC55DB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		199EE35DC48CCA27D6E1F2B2 /* CarbonEngine */ = {
+			isa = PBXGroup;
+			children = (
+				EB560745D5511329E64B4DB3 /* AuditReportSheet.swift */,
+				1EC05A3F6BBF0C4AD1510559 /* CarbonEngineView.swift */,
+				9C0F68C46A74B802D577AAF8 /* LedgerBlockRow.swift */,
+				62D62EC5A452911C42F3D196 /* QuotaProgressRingView.swift */,
+			);
+			path = CarbonEngine;
+			sourceTree = "<group>";
+		};
+		519ED6BC9E0CC710CE3F7DAB /* ReliefBridge */ = {
+			isa = PBXGroup;
+			children = (
+				CBF57563B16E59D01B726A2C /* App */,
+				99A4BA78BC4C2B0273228D28 /* Models */,
+				57EC3C369392DE76B9A468F5 /* Services */,
+				08916654DF5A792D335FDAF4 /* Theme */,
+				844480A8893B9F62332FB062 /* ViewModels */,
+				ECB4970D1B4058AF00B4942E /* Views */,
+			);
+			path = ReliefBridge;
+			sourceTree = "<group>";
+		};
+		57EC3C369392DE76B9A468F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5262C613DE2955BB05986E3 /* SimulatedDataService.swift */,
+				AAAA0002000000000000F001 /* ReliefService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		844480A8893B9F62332FB062 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3221F1590ED46DAB67A9E20D /* CarbonEngineViewModel.swift */,
+				4F5E15F69C9F2F4C10EBBCC4 /* DigitalTwinViewModel.swift */,
+				40803DA5097045493E41BC0B /* FleetCommandViewModel.swift */,
+				EF1101155D2A79D5ADB73C5D /* MaintenanceViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84B391373E99F3433080CA9B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D736D5A8ADBEEC67698A0074 /* GlowText.swift */,
+				877321BBE4BFF93B1944F7C9 /* InfoStatCard.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8947F8F6EDDE021F962A2F6A /* DigitalTwin */ = {
+			isa = PBXGroup;
+			children = (
+				B51D9C80ACD8E02573016958 /* AircraftSceneView.swift */,
+				57AA4F4769DCA6895A8F9502 /* DigitalTwinTabView.swift */,
+				EB5E4683202A80C49F07DE8D /* DigitalTwinView.swift */,
+				8B7E886F003441F1B1AA25C9 /* TelemetryGaugeView.swift */,
+			);
+			path = DigitalTwin;
+			sourceTree = "<group>";
+		};
+		969DDF83EA31EBA30C0671E1 /* Maintenance */ = {
+			isa = PBXGroup;
+			children = (
+				A87E27D14D68853240FD23EF /* LatticeHeatMapView.swift */,
+				E05747A783A1D644DFEBE03E /* MaintenanceAlertRow.swift */,
+				4E4794E271BAFE46B9893533 /* MaintenanceView.swift */,
+				C2879ED563D222787DA3E995 /* SubsystemStatusRow.swift */,
+			);
+			path = Maintenance;
+			sourceTree = "<group>";
+		};
+		99A4BA78BC4C2B0273228D28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11963ADAEB43BBA9F59DB7AE /* Models.swift */,
+				809E99E94BE0AD0893E4B3BF /* Thresholds.swift */,
+				AAAA0001000000000000F001 /* ReliefModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CBF57563B16E59D01B726A2C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3EE4990068616001BEC79C03 /* ReliefBridgeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE2540D873E52FDF1FC55DB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E010C076301DB7CDC1CD59C /* ReliefBridgeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB4970D1B4058AF00B4942E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				199EE35DC48CCA27D6E1F2B2 /* CarbonEngine */,
+				84B391373E99F3433080CA9B /* Common */,
+				8947F8F6EDDE021F962A2F6A /* DigitalTwin */,
+				F6FA9D04216217B2A5C9C3FE /* FleetCommand */,
+				AAAA0004000000000000F001 /* ReliefBridge */,
+				969DDF83EA31EBA30C0671E1 /* Maintenance */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6FA9D04216217B2A5C9C3FE /* FleetCommand */ = {
+			isa = PBXGroup;
+			children = (
+				CE60CB4FC2574273C15D2138 /* AircraftMapAnnotation.swift */,
+				2A3A62274C3A4F510FB8DE22 /* FleetCommandView.swift */,
+				E62D61D5FFBA3977D4D04ABD /* FleetFilterView.swift */,
+				7E02AD33427DBA1B45D7F09D /* KPICardView.swift */,
+			);
+			path = FleetCommand;
+			sourceTree = "<group>";
+		};
+		AAAA0004000000000000F001 /* ReliefBridge */ = {
+			isa = PBXGroup;
+			children = (
+				AAAA0003000000000000F001 /* ReliefGlobeView.swift */,
+				BBBB0001000000000000F001 /* ImpactView.swift */,
+				BBBB0002000000000000F001 /* SurplusRadarView.swift */,
+				BBBB0003000000000000F001 /* RespondView.swift */,
+			);
+			path = ReliefBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E955F80E8F8CC81E054F1C9 /* ReliefBridgeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829F576561D36CD7594A4D47 /* Build configuration list for PBXNativeTarget "ReliefBridgeApp" */;
+			buildPhases = (
+				42C6C4E464E3F913B51809C8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReliefBridgeApp;
+			packageProductDependencies = (
+			);
+			productName = ReliefBridgeApp;
+			productReference = 3E010C076301DB7CDC1CD59C /* ReliefBridgeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A75C22EB410B6A1361F0C669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7E955F80E8F8CC81E054F1C9 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8BE6BD4BAB3E97FAC630D26 /* Build configuration list for PBXProject "ReliefBridgeApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1019F33194A62C19AB26C34A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE2540D873E52FDF1FC55DB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E955F80E8F8CC81E054F1C9 /* ReliefBridgeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42C6C4E464E3F913B51809C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E475ACCB65E19FDB8D72D6 /* ReliefBridgeApp.swift in Sources */,
+				BBBB0001000000000000F002 /* ImpactView.swift in Sources */,
+				BBBB0002000000000000F002 /* SurplusRadarView.swift in Sources */,
+				BBBB0003000000000000F002 /* RespondView.swift in Sources */,
+				AAAA0001000000000000F002 /* ReliefModels.swift in Sources */,
+				AAAA0002000000000000F002 /* ReliefService.swift in Sources */,
+				AAAA0003000000000000F002 /* ReliefGlobeView.swift in Sources */,
+				9CA343565913F1C01DACA8DB /* AircraftMapAnnotation.swift in Sources */,
+				1D998E18448C35FCF43A20C1 /* AircraftSceneView.swift in Sources */,
+				6F795BEBE0696470ABEAFEF3 /* AuditReportSheet.swift in Sources */,
+				29BC574A3DA30F5254188154 /* CarbonEngineView.swift in Sources */,
+				A89ADD611DEFFC199232BE80 /* CarbonEngineViewModel.swift in Sources */,
+				E6154064F0F8F3D83C402542 /* DigitalTwinTabView.swift in Sources */,
+				A1BCB28BACB3747D28B97465 /* DigitalTwinView.swift in Sources */,
+				99B130B08B0A0BB0B6CF552E /* DigitalTwinViewModel.swift in Sources */,
+				4C25824F5CFF866A59805772 /* FleetCommandView.swift in Sources */,
+				2D36776DCC86ECEFC95A012E /* FleetCommandViewModel.swift in Sources */,
+				154C8C3C8D78BE58667B24D7 /* FleetFilterView.swift in Sources */,
+				298B68C7A10EB035F38C51D4 /* GlowText.swift in Sources */,
+				21486D64AEC2106FF666FC7F /* InfoStatCard.swift in Sources */,
+				2449141A5557BF6358877D98 /* KPICardView.swift in Sources */,
+				C1544A1C00F57142D5436786 /* LatticeHeatMapView.swift in Sources */,
+				EB67D9509E0F28A94901690D /* LedgerBlockRow.swift in Sources */,
+				3F862D9232D313E2E65D0CFB /* MaintenanceAlertRow.swift in Sources */,
+				8B76D014926472097C3A888C /* MaintenanceView.swift in Sources */,
+				8C9D67A36B6C2735904ED221 /* MaintenanceViewModel.swift in Sources */,
+				3019CCAA71FB86D795AC1A62 /* Models.swift in Sources */,
+				E440BCD72122B36CD9539334 /* QuotaProgressRingView.swift in Sources */,
+				45359C9AAD043445B8DAD419 /* SimulatedDataService.swift in Sources */,
+				AD1989C950F4A1B80CCDB5BD /* SubsystemStatusRow.swift in Sources */,
+				901BBA20B319057B90BA27B1 /* TelemetryGaugeView.swift in Sources */,
+				1C0B276B9FEED0A6F81B03E4 /* Theme.swift in Sources */,
+				BF11E6AF1378C8E97E831D30 /* Thresholds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		298BA159619CC5EE0890E42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		914CF094E7C0DBE140D7298E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ReliefBridge";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ReliefBridge uses your location as the starting point of the relief bridges you build to crises around the world.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reliefbridge.app;
+				PRODUCT_NAME = ReliefBridgeApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1DE4A5320D1B7AA9923853B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ReliefBridge";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ReliefBridge uses your location as the starting point of the relief bridges you build to crises around the world.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reliefbridge.app;
+				PRODUCT_NAME = ReliefBridgeApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F50EA13CF3938260A0472AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		829F576561D36CD7594A4D47 /* Build configuration list for PBXNativeTarget "ReliefBridgeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914CF094E7C0DBE140D7298E /* Debug */,
+				B1DE4A5320D1B7AA9923853B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D8BE6BD4BAB3E97FAC630D26 /* Build configuration list for PBXProject "ReliefBridgeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50EA13CF3938260A0472AA0 /* Debug */,
+				298BA159619CC5EE0890E42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A75C22EB410B6A1361F0C669 /* Project object */;
+}
